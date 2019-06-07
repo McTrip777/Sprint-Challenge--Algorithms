@@ -1,10 +1,9 @@
 Add your answers to the Algorithms exercises here.
 
-a) (n^3) (infinite)
+a) 0(n)
 
-This is an endless loop unless n has the value 0, 1 or a negative number.
-its a while loop that that says while (a) is less than (n^3) then run.
-In the loop a = a + (n^2) so a will never be larger than (n^3)
+The value of the while loop is n^3 and the value of (a) after it runs once is a+n^2
+drop the constant n^3 / n^2 == 0(n)
 
 
 b) n^3
@@ -25,3 +24,19 @@ This one was not easy to understand but if you really look at it, all the values
 c) 0(n)
 
 whatever number is passed in is what is going to determine how many times it runs so this is a 0(n) algorithm
+
+
+
+Part II
+def storyHeight(n):
+    f = lowest floor that egg will break                                    
+    first = 0
+    last = n
+    while height f isn't found 
+        current = last/2
+       if egg breaks from current:
+            last = current
+            first - last / 2
+        elif egg doesn't break from current:
+            first = current
+            first + last / 2
